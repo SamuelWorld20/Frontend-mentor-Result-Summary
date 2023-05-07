@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    user-select: none;
+    list-style: none;
+}
+div{
+    justify-content: center;
+}#bg{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    background-size: 100%;
+}#circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 81%, 54%));
+    background-size: 100%;
+}#second{
+    justify-content: center;
+    padding-top: 80px;
+}.h5{
+    font-family: Hanken Grotesk Medium;
+    font-weight: 500;
+    font-size: 18px;
+    color: #BCB3FB;
+    margin-left: 75px;
+    padding-top: 30px;
+}.score{
+    font-family: Hanken Grotesk ExtraBold;
+    font-size: 55px;
+    font-weight: 800;
+    color: #FDFDFF;
+    margin-left: 45px;
+    padding-top: 30px;
+}.span{
+    font-family: Hanken Grotesk;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8476FF;
+    margin: -30px 50px;
+}.g{
+    font-family: Hanken Grotesk Medium;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FCFCFF;
+    margin: 25px 87px;
+}.msg{
+    text-align: center;
+    font-family: Hanken Grotesk Medium;
+    color: #BFBCFF;
+    font-size: 12.5px;
+    margin-top: -21px;
+}.h4{
+    font-family: Hanken Grotesk Medium;
+    color: #494C5D;
+    margin-left: 725px;
+    padding-top: 30px; 
+}svg{
+    margin: 10px 12px;
+}.h3{
+    font-family: Hanken Grotesk Medium;
+    font-size: 16px;
+    font-weight: 500;
+}p{
+    font-family: Hanken Grotesk;
+}button:hover{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 81%, 54%)) !important;
+    background-size: 100% !important
+}button:active{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 81%, 54%)) !important;
+    background-size: 100% !important
+}@media screen and (max-width:1400px) and (min-width:376px) {
+    #second{
+        margin: -400px 585px;
+    }.container{
+        margin-top: 130px;
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width:375px) {
+    .container{
+        margin-left: 200px;
+    }
+}
